@@ -34,3 +34,8 @@ input : mkdir my_first_directory
 * Move the file betty from /tmp/ to /tmp/my_first_directory.
 ### File: 7-movethatfile
 input : mv /tmp/betty /tmp/my_first_directory
+## 8. Bye bye Betty
+* Delete the file betty.
+  * The file betty is in /tmp/my_first_directory
+### File: 8-firstdelete
+input : rm /tmp/my_first_directory/betty
