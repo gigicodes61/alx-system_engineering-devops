@@ -19,3 +19,10 @@ input : ls -l
 * Display current directory contents, including hidden files (starting with .). Use the long format.
 ### File: 4-listmorefiles
 input : ls -al
+## 5. I love numbers
+* Display current directory contents.
+  * Long format
+  * with user and group IDs displayed numerically
+  * And hidden files (starting with .)
+### File: 5-listfilesdigitonly
+input : ls -lna
