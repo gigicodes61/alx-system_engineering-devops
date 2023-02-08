@@ -15,3 +15,7 @@ input : cd ~
 * Display current directory contents in a long format
 ### File: 3-listfiles
 input : ls -l
+## 4. Hidden files
+* Display current directory contents, including hidden files (starting with .). Use the long format.
+### File: 4-listmorefiles
+input : ls -al
