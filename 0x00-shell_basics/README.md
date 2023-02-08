@@ -7,3 +7,7 @@ input : pwd *(print working directory)*
 * Display the contents list of your current directory.
 ### File: 1-listit
 input : ls *(list content)*
+## 2. There is no place like home
+* Write a script that changes the working directory to the user’s home directory
+### File: 2-bring_me_home
+input : cd ~
