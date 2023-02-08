@@ -79,3 +79,7 @@ You can assume that the directory /tmp/u will exist when we will run your script
 You can assume that the directory /tmp/u will exist when we will run your script
 ### File: 100-lets_move
 insert : mv [[:upper:]]* /tmp/u
+## 16. Clean Emacs
+* Create a script that deletes all files in the current working directory that end with the character ~.
+### File: 101-clean_emacs
+input : rm *~
