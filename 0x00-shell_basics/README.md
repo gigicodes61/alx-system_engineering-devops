@@ -66,4 +66,16 @@ input : ln -s /bin/ls __ls__
 
 You can consider that all HTML files have the extension .html
 ### File: 14-copy_html
-input cp -un *.html ../
+input : cp -un *.html ../
+## 15. Let’s move
+* Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+
+
+You can assume that the directory /tmp/u will exist when we will run your scriptCreate a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+
+
+
+You can assume that the directory /tmp/u will exist when we will run your script
+### File: 100-lets_move
+insert : mv [[:upper:]]* /tmp/u
