@@ -26,3 +26,11 @@ input : ls -al
   * And hidden files (starting with .)
 ### File: 5-listfilesdigitonly
 input : ls -lna
+## 6. Welcome
+* Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+### File: 6-firstdirectory
+input : mkdir my_first_directory
+## 7. Betty in my first directory
+* Move the file betty from /tmp/ to /tmp/my_first_directory.
+### File: 7-movethatfile
+input : mv /tmp/betty /tmp/my_first_directory
