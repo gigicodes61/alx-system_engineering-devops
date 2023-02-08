@@ -43,3 +43,7 @@ input : rm /tmp/my_first_directory/betty
 * Delete the directory my_first_directory that is in the /tmp directory.
 ### File: 9-firstdirdeletion
 input : rm -r /tmp/my_first_directory
+## 10. Back to the future
+* Write a script that changes the working directory to the previous one.
+### File: 10-back
+input : cd -
