@@ -11,3 +11,7 @@ input : ls *(list content)*
 * Write a script that changes the working directory to the user’s home directory
 ### File: 2-bring_me_home
 input : cd ~
+## 3. The long format
+* Display current directory contents in a long format
+### File: 3-listfiles
+input : ls -l
