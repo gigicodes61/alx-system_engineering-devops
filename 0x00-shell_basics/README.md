@@ -39,3 +39,7 @@ input : mv /tmp/betty /tmp/my_first_directory
   * The file betty is in /tmp/my_first_directory
 ### File: 8-firstdelete
 input : rm /tmp/my_first_directory/betty
+## 9. Bye bye My first directory
+* Delete the directory my_first_directory that is in the /tmp directory.
+### File: 9-firstdirdeletion
+input : rm -r /tmp/my_first_directory
