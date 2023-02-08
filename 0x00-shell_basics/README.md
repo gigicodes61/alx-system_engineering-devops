@@ -69,13 +69,6 @@ You can consider that all HTML files have the extension .html
 input : cp -un *.html ../
 ## 15. Let’s move
 * Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
-
-
-
-You can assume that the directory /tmp/u will exist when we will run your scriptCreate a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
-
-
-
 You can assume that the directory /tmp/u will exist when we will run your script
 ### File: 100-lets_move
 insert : mv [[:upper:]]* /tmp/u
@@ -86,8 +79,22 @@ input : rm *~
 ## 17. Tree
 * Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
-
-
 You are only allowed to use two spaces (and lines) in your script, not more.
 ### File: 102-tree
 input : mkdir -p welcome/to/school
+## 18. Life is a series of commas, not periods
+* Write a command that lists all the files and directories of the current directory, separated by commas (,).
+
+  *Directory names should end with a slash (/)
+  *Files and directories starting with a dot (.) should be listed
+  *The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+  *Only digits and letters are used to sort; Digits should come first
+  *You can assume that all the files we will test with will have at least one letter or one digit
+  *The listing should end with a new line
+### File: 103-commas
+input : ls -amvp
+## 19. File type: School
+* Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+### File: school.mgc
+input : 0 string SCHOOL School data
+!:mime School
