@@ -90,4 +90,4 @@ input : chown --from=guillaume betty hello
 ## 17. Star Wars
 * Write a script that will play the StarWars IV episode in the terminal.
 ### File: 103-Star_Wars
-input :`
+input : telnet towel.blinkenlights.nl`
