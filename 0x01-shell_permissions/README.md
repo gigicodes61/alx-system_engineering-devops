@@ -51,4 +51,15 @@ input : chmod 007 hello
   * The file hello will be in the working directory
   * You are not allowed to use commas for this script
 ### File: 9-John_Doe
-input :    
+input : chmod 753 hello
+## 10. Look in the mirror
+* Write a script that sets the mode of the file hello the same as olleh’s mode.
+  * The file hello will be in the working directory
+  * The file olleh will be in the working directory
+* Note: the mode of olleh will not always be 664. Make sure your script works for any mode.
+### File: 10-mirror_permissions
+input : 
+## 11. Directories    
+* Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
+### File: 11-directories_permissions
+input : 
