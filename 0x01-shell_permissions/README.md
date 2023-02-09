@@ -62,4 +62,13 @@ input : chmod --reference=olleh hello
 ## 11. Directories    
 * Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 ### File: 11-directories_permissions
-input : 
+input : chmod -R +X .
+## 12. More directories
+* Create a script that creates a directory called my_dir with permissions 751 in the working directory.
+### File: 12-directory_permissions
+input : mkdir -m 751 my_dir
+## 13. Change group
+* Write a script that changes the group owner to school for the file hello
+  * The file hello will be in the working directory
+### File: 13-change_group
+input :
