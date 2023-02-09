@@ -75,10 +75,15 @@ input : chgrp school hello
 ## 14. Owner and group
 * Write a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 ### File: 100-change_owner_and_group
-input : chown vicent:staff
+input : chown vicent:staff *
 ## 15. Symbolic links
 * Write a script that changes the owner and the group owner of _hello to vincent and staff respectively.
   * The file _hello is in the working directory
   * The file _hello is a symbolic link
 ### File: 101-symbolic_link_permissions
+input : chown -h vincent:staff _hello
+## 16. If only
+* Write a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+  * The file hello will be in the working directory
+### File: 102-if_only
 input :
