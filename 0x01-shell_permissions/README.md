@@ -71,4 +71,4 @@ input : mkdir -m 751 my_dir
 * Write a script that changes the group owner to school for the file hello
   * The file hello will be in the working directory
 ### File: 13-change_group
-input :
+input : chgrp school hello
