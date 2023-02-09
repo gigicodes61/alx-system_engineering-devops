@@ -16,4 +16,13 @@ input : groups
 ## 3. New owner
 * Write a script that changes the owner of the file hello to the user betty.
 ### File: 3-new_owner
-input : 
+input : sudo chown betty hello
+## 4. Empty!
+* Write a script that creates an empty file called hello.
+### File: 4-empty
+input : touch hello
+## 5. Execute
+* Write a script that adds execute permission to the owner of the file hello.
+  * The file hello will be in the working directory 
+### File: 5-execute
+input :
