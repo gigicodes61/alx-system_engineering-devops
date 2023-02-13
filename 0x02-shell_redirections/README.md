@@ -50,4 +50,11 @@ input : find . -type f -name "*.js" -delete
   * The current and parent directories should not be taken into account
   * Hidden directories should be counted
 ### File: 11-directories
+input : find . -type d -not -name '.' | wc -l
+## 12. What’s new
+* Create a script that displays the 10 newest files in the current directory.
+ * Requirements:
+  * ne file per line
+  * Sorted from the newest to the oldest
+### File: 12-newest_files
 input : 
