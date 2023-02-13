@@ -97,4 +97,9 @@ input : tr -d "Cc"
 ## 21. esreveR
 * Write a script that reverse its input.
 ### File: 21-reverse
+input : rev
+## 22. DJ Cut Killer
+* Write a script that displays all users and their home directories, sorted by users.
+  * Based on the the /etc/passwd file
+### File: 22-users_and_homes
 input :
