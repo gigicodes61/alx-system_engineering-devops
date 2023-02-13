@@ -135,4 +135,4 @@ input : cut -c 1 | tr -d '\n' | sort
   * Order by number of requests, most active host or IP at the top
   * You are not allowed to use grep, egrep, fgrep or rgrep
 ### File: 103-the_biggest_fan
-input :
+input : tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | tr -s ' ' | cut -d' ' -f3
