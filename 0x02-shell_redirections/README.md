@@ -10,4 +10,8 @@ input : echo '"(Ôo)'\'
 ## 2. Let's display a file
 * Display the content of the /etc/passwd file.
 ### File: 2-hellofile
-input :
+input : cat /etc/passwd
+## 3. What about 2?
+* Display the content of /etc/passwd and /etc/hosts
+### File: 3-twofiles
+input : 
