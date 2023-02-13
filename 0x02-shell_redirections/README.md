@@ -122,4 +122,11 @@ input : find . -empty | rev | cut -d '/' -f 1 | rev
   * The listing should end with a new line
   * You are not allowed to use basename, grep, egrep, fgrep or rgrep
 ### File: 101-gifs
+input : find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+## 25. Acrostic
+* An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval.
+Create a script that decodes acrostics that use the first letter of each line.
+  * The ‘decoded’ message has to end with a new line
+  * You are not allowed to use grep, egrep, fgrep or rgrep
+### File: 102-acrostic
 input :
