@@ -93,4 +93,8 @@ input : tr "A" "Z" | "c" "e"
 ## 20. Without C, you would live in hiago
 * Create a script that removes all letters c and C from input.
 ### File: 20-hiago
-input : 
+input : tr -d "Cc"
+## 21. esreveR
+* Write a script that reverse its input.
+### File: 21-reverse
+input :
