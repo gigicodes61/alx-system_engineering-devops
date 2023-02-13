@@ -85,4 +85,8 @@ input : grep -v "bin" /etc/passwd
 * Display all lines of the file /etc/ssh/sshd_config starting with a letter.
   * include capital letters as well
 ### File: 18-letteronly
+input : grep -i "^[a-z]" /etc/ssh/sshd_config
+## 19. A to Z
+* Replace all characters A and c from input to Z and e respectively.
+### File: 19-AZ
 input :
