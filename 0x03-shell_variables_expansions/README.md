@@ -72,4 +72,24 @@ input : echo {a..z}{a..z} | tr ' ' '\n' | grep -v 'oo'
   * The number will be stored in the environment variable NUM.
 ### File: 13-print_float
 input : printf "%.2f\n" $NUM
-
+## 14. Decimal to Hexadecimal
+* Write a script that converts a number from base 10 to base 16.
+  * The number in base 10 is stored in the environment variable DECIMAL
+  * The script should display the number in base 16, followed by a new line
+### File: 100-decimal_to_hexadecimal
+input : printf "%x\n" $DECIMAL
+## 15. Everyone is a proponent of strong encryption
+* Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+### File: 101-rot13
+input : 
+## 16. The eggs of the brood need to be an odd number
+* Write a script that prints every other line from the input, starting with the first line.
+### File: 102-odd
+input :
+## 17. I'm an instant star. Just add water and stir.
+* Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result. 
+  * WATER is in base water 
+  * STIR is in base stir.
+  * The result should be in base bestchol
+### File: 103-water_and_stir
+input :
