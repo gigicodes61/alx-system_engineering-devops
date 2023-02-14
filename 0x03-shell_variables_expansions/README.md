@@ -30,4 +30,10 @@ input : set
   * Name: BEST
   * Value: School
 ### File: 6-create_local_variable
+input : BEST="School"
+## 7. Global variable
+* Create a script that creates a new global variable.
+  * Name: BEST
+  * Value: School
+### File: 7-create_global_variable
 input : 
