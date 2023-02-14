@@ -20,4 +20,8 @@ input : echo $PATH | tr ":" "\n" | wc -l
 ## 4. Global variables
 * Create a script that lists environment variables.
 ### File: 4-global_variables
+input : printenv
+## 5. Local variables
+* Create a script that lists all local variables and environment variables, and functions.
+### File: 5-local_variables
 input :  
