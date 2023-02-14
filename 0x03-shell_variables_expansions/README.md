@@ -81,7 +81,7 @@ input : printf "%x\n" $DECIMAL
 ## 15. Everyone is a proponent of strong encryption
 * Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 ### File: 101-rot13
-input : 
+input : tr 'A-Za-z' 'N-ZA-Mn-za-m' 
 ## 16. The eggs of the brood need to be an odd number
 * Write a script that prints every other line from the input, starting with the first line.
 ### File: 102-odd
