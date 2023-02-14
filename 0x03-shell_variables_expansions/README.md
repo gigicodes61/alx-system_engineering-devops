@@ -24,4 +24,10 @@ input : printenv
 ## 5. Local variables
 * Create a script that lists all local variables and environment variables, and functions.
 ### File: 5-local_variables
-input :  
+input : set
+## 6. Local variable
+* Create a script that creates a new local variable.
+  * Name: BEST
+  * Value: School
+### File: 6-create_local_variable
+input : 
